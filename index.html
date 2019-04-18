@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/jquery.js"></script>
+</head>
+<body>
+	<div class="row">
+		<div class="col-lg-6 col-md-12">
+			<input type="number" id="number" class="offset-lg-8 col-lg-4 offset-md-4 col-md-4 number" placeholder="Number" name="">
+		</div>
+		<div class="col-lg-6 col-md-12">
+			<input type="" placeholder="Converted" id="converted" class="col-lg-4 offset-md-4 offset-lg-0 col-md-4" name="">
+		</div>
+	</div>
+	<div class="row" style="margin-top: 20px;">
+		<div class="col-lg-6 col-md-12">
+			<div class=" offset-lg-8 col-lg-4 col-md-6 offset-md-3">
+				<fieldset>
+					<legend align="left">NAI</legend>
+					<input type="radio" name="NAI" id="NAI1" value="1"><label for="NAI1">National</label> <br>
+					<input type="radio" name="NAI" id="NAI2" value="2"><label for="NAI2">Unknown</label> <br>
+					<input type="radio" name="NAI" id="NAI3" value="3"><label for="NAI3">National Significant</label> <br>  
+					<input type="radio" name="NAI" id="NAI4" value="4"><label for="NAI4">International</label> <br>  
+				</fieldset>
+			</div>
+		</div>
+		<div class="col-lg-6 col-md-12  offset-lg-0">
+			<div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
+				<fieldset>
+					<legend align="left" class="title-scree">Screening</legend>
+					<input type="radio" name="screening" id="screening1" value="00"><label for="screening1">Not Verified</label><br>
+					<input type="radio" name="screening" id="screening2" value="01"><label for="screening2">Varified and passed</label><br>
+					<input type="radio" name="screening" id="screening3" value="10"><label for="screening3">Varified and failed</label><br>  
+					<input type="radio" name="screening" id="screening4" value="11"><label for="screening4">Network provided</label><br> 
+				</fieldset>
+			</div>
+		</div>
+	</div>
+	<div class="row second_block">
+		<div class="col-lg-6 col-md-12">
+			<div class="offset-lg-8 col-lg-4 col-md-6 offset-md-3">
+				<fieldset>
+					<legend align="left" class="title-prese">Presentation</legend>
+					<input type="radio" name="presentation" id="presentation1" value="00"><label for="presentation1">Allowed</label><br>
+					<input type="radio" name="presentation" id="presentation2" value="01"><label for="presentation2">Restricted</label><br>
+					<input type="radio" name="presentation" id="presentation3" value="10"><label for="presentation3">Not available</label><br>  
+				</fieldset>
+			</div>
+		</div>
+		<div class="col-lg-6 col-md-12  offset-lg-0">
+			<div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
+				<fieldset>
+					<legend align="left" class="title-num_plan">Numbering plan</legend>
+					<input type="radio" name="numbering_plan" id="numbering_plan1" value="001"><label for="numbering_plan1">ISDN</label><br>
+					<input type="radio" name="numbering_plan" id="numbering_plan2" value="011"><label for="numbering_plan2">Daya</label><br>
+					<input type="radio" name="numbering_plan" id="numbering_plan3" value="100"><label for="numbering_plan3">Telex</label><br>  
+				</fieldset>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-6 col-md-12  offset-lg-0">
+			<div class="offset-lg-8 col-lg-8 col-md-8 offset-md-2">
+				<fieldset class="block-routing">
+					<legend align="left" class="title-routing">Routing</legend>
+					<input type="radio" name="routing" id="routing1" value="0"><label for="routing1">Allowed</label><br>
+					<input type="radio" name="routing" id="routing2" value="1"><label for="routing2">Not allowed</label><br>
+				</fieldset>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<script src="js/script.js"></script>
+	</footer>
+</body>
+</html>
